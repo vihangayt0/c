@@ -46,7 +46,7 @@ app.use("/", (req, res) => {
           let code = btoa(data);
           var words = code.split("");
           var ress = words[Math.floor(words.length / 2)];
-          let c = code.split(ress).join(ress + "_XASENA_");
+          let c = code.split(ress).join(ress + "_A_L_E_X_A_");
 
           const templateButtons = [
             {
